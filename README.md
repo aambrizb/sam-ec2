@@ -28,23 +28,13 @@ AWS SAM example creates a postgresql database
 | iam:CreatePolicy      |
 | iam:PutRolePolicy     |
 
-# Role Policies for Database
+# Role Policies for EC2 / VPC
 
 |                       |
 |-----------------------|
-| ec2:DescribeSecurityGroups  |
-| ec2:CreateSecurityGroup  |
-| ec2:DeleteSecurityGroup        |
-| ec2:DescribeVpcs           |
-| ec2:DescribeSubnets           |
-| ec2:AuthorizeSecurityGroupIngress        |
-| rds:DescribeDBInstances      |
-| rds:CreateDBInstance     |
-| rds:DeleteDBInstance     |
-| rds:ModifyDBInstance     |
-| rds:DescribeDBSubnetGroups     |
-| rds:AddRoleToDBInstance     |
-| rds:DescribeDBEngineVersions     |
+| ec2:RunInstances  |
+| ec2:CreateTags  |
+| ec2:DescribeInstances        |
 
 # Run
 
